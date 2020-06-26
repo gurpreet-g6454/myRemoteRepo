@@ -17,7 +17,7 @@ public class myAppTester {
 	  reverseMethod(n);
 	  System.out.println();
 
-	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
+	  myAppTester.myTestMethod(); 
 
 	}
 	
@@ -34,14 +34,13 @@ public class myAppTester {
 	   }
 
 
-	   /* 
-	       add your test method in this space then remove the block comment symbols
+	 
 	       public static void myTestMethod(...){
 
-            
+            System.out.println("my test method");
 
 		   }
 	 
-	   */
+	  
 
 }
